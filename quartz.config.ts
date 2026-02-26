@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Quartz 4",
+    pageTitle: "Moses Mind",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
@@ -40,13 +40,13 @@ const config: QuartzConfig = {
           textHighlight: "#fff23688",
         },
         darkMode: {
-          light: "#161618",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
+          light: "#F5F5F5",
+          lightgray: "#F5F5F5",
+          gray: "#9E9E9E",
+          darkgray: "#616161",
+          dark: "#616161",
+          secondary: "#757575",
+          tertiary: "#607D8B",
           highlight: "rgba(143, 159, 169, 0.15)",
           textHighlight: "#b3aa0288",
         },
