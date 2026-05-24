@@ -23,32 +23,32 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
-        code: "IBM Plex Mono",
+        header: "Inter",
+        body: "Inter",
+        code: "JetBrains Mono",
       },
       colors: {
         lightMode: {
-          light: "#F9F9F9",
-          lightgray: "#474747",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#fff23688",
+          light: "#ECEFF4",    // Nord Snow Storm — page background
+          lightgray: "#D8DEE9", // Nord Snow Storm — borders
+          gray: "#9aa5b8",     // muted — graph links
+          darkgray: "#4C566A", // Nord Polar Night — body text
+          dark: "#2E3440",     // Nord Polar Night — headings, icons
+          secondary: "#5E81AC", // Nord Frost — links
+          tertiary: "#81A1C1", // Nord Frost — hover
+          highlight: "rgba(94, 129, 172, 0.12)",
+          textHighlight: "#EBCB8B88", // Nord Aurora yellow
         },
         darkMode: {
-          light: "#1B1B1C",
-          lightgray: "#303030",
-          gray: "#1B1B1C",
-          darkgray: "#FFFFFF",
-          dark: "#C7C7C7",
-          secondary: "#E3E3E3",
-          tertiary: "#009EBB",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#b3aa0288",
+          light: "#2E3440",    // Nord Polar Night — page background
+          lightgray: "#3B4252", // Nord Polar Night — borders
+          gray: "#4C566A",     // Nord Polar Night — graph links
+          darkgray: "#D8DEE9", // Nord Snow Storm — body text
+          dark: "#ECEFF4",     // Nord Snow Storm — headings, icons
+          secondary: "#88C0D0", // Nord Frost — links
+          tertiary: "#81A1C1", // Nord Frost — hover
+          highlight: "rgba(136, 192, 208, 0.12)",
+          textHighlight: "#EBCB8B88", // Nord Aurora yellow
         },
       },
     },
